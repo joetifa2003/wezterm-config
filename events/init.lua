@@ -69,5 +69,5 @@ wezterm.on("format-tab-title", function(tab, tabs, panes, config, hover, max_wid
 		end
 	end
 
-	return " [" .. tab.tab_index + 1 .. "]" .. p_icon .. " " .. lang_icon .. " " .. pane.title .. " "
+	return "[" .. tab.tab_index + 1 .. "]" .. p_icon .. " " .. lang_icon .. " " .. pane.title .. " "
 end)
